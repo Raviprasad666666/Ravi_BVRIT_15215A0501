@@ -5,12 +5,27 @@ public class Main {
 		//You may test that your code works find here
 		//Please check that your code works and has no 
 		//compilation problems before to submit
-	Student st=new Student();
-		st.setId("15215");
-		st.setFullName("ravi");
-		st.setBirthDate("04-05-1993");
-		st.setAvgMark(73.333);
-		
+	Scanner sc=new Scanner(System.in);
+	Student newStudent=new Students();
+	int size;
+	System.out.println("Enter The Amountof Students:");
+	size=sc.nextInt();
+	Student[] myStudent=new Student[size];
+	int id;
+	String fullName;
+	double avgMark;
+	Student s;
+for(int i=0;i<size;i++)
+{
+	System.out.println("Enter The Id of the Student"+i);
+	id=sc.nextInt();
+
+	System.out.println("Enter the Full Name of The student:"+i);
+	fullName=sc.next();
+
+	System.out.println("Enter The average of the Student:"+i);
+	avgMark=sc.nextDouble();
+	s=new 	
 	}
 
 }
